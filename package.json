@@ -1,0 +1,13 @@
+{
+  "name": "LikeLion-Website-Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SSPark04/LikeLion-OSU-Website.git",
+  "author": "Sangwoo Park",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
