@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LikeLion OSU Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- React 컴포넌트를 렌더링할 위치 -->
+    <div id="root"></div>
+
+    <!-- React와 ReactDOM의 CDN 링크 -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- React 애플리케이션의 진입점 연결 -->
+    <script>
+      // React 애플리케이션의 시작점
+      const rootElement = document.getElementById('root');
+      const root = ReactDOM.createRoot(rootElement);
+
+      root.render(
+        React.createElement('h1', null, 'Hello, LikeLion OSU!')
+      );
+    </script>
+  </body>
+</html>
