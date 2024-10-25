@@ -1,11 +1,15 @@
 import React from 'react';
+import './App.css';
 import Intro from "./components/Intro";
+import Home from "./components/Home";
 
 function App() {
-    return (
-        <Intro>
-        </Intro>
-    );
+  return (
+    <div className="container">
+      <Intro />
+      <Home />
+    </div>
+  );
 }
 
 export default App;
