@@ -5,7 +5,7 @@ function Intro() {
     <div className="intro">
       <h2>Welcome to the Intro Section</h2>
       <ul>
-        <li>Item 1</li>
+        <li><a href="item1">Item 1</a></li>
         <li>Item 2</li>
         <li>Item 3</li>
       </ul>
